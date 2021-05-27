@@ -1,0 +1,1 @@
+tasklist | grep "StikyNot" | gawk '{print $2}' | xargs taskkill /f /pid

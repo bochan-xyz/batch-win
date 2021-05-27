@@ -1,0 +1,1 @@
+FOR /F "tokens=2 delims= " %%A IN ('tasklist /fi "IMAGENAME eq java.exe" /NH') DO taskkill /pid %%A /f /t
